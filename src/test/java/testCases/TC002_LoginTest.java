@@ -23,11 +23,11 @@ public class TC002_LoginTest extends BaseClass {
 		
 		hp.clickMyAccount();
 		hp.clickLogin();
-		//logger.info("Clicked on Login Link");
-		
+		logger.info("Clicked on Login Link");
 		LoginPage login=new LoginPage(driver);
 		login.enterEmail(prop.getProperty("Email"));
-		//logger.info("Enytered the Email");
+		logger.info("Enytered the Email");
+			//tdrfsgt
 		login.enterPassword(prop.getProperty("Password"));
 		//logger.info("Enytered the Password");
 		login.ClickLogin();
